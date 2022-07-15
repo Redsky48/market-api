@@ -1,0 +1,1 @@
+bash -c 'sleep 2; sudo killall node; sudo nohup node dist/app.js > output.log & disown' &
